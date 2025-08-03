@@ -1,10 +1,7 @@
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </div>
+  return (<>
+  <h1 className="text-3xl">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt ab fugit libero magni? Nostrum est quis eum saepe eius dolor aut voluptates perspiciatis. Quasi, harum laborum at obcaecati praesentium libero modi iste quaerat quos eos, tempore commodi atque pariatur, provident eaque eligendi asperiores id! Autem voluptatum deleniti quos quia eveniet commodi reprehenderit nisi sit sequi expedita, earum sapiente dolorem vero ea perspiciatis doloremque! Alias sequi quis nihil nemo perferendis aliquid odit ratione ipsum odio exercitationem, eaque tempora! Et, quis amet quod laborum distinctio aliquam, vel voluptates cupiditate ex modi molestias, ab eligendi at beatae officia rem! Distinctio commodi excepturi soluta tempore quos illum, iure nesciunt ratione dolore pariatur modi dicta quod eius odio sunt. Ipsa, odit. Est architecto, et omnis eius quibusdam doloremque voluptates quidem reprehenderit ullam possimus harum fugiat hic modi, dolor quaerat sunt aut odit nesciunt aspernatur. Neque omnis autem eveniet facilis earum quam exercitationem? Quisquam cupiditate quia vitae nemo sit distinctio eos expedita optio natus aspernatur modi numquam inventore molestias esse veritatis eveniet, facere alias officiis, voluptate voluptatem doloremque officia eum, architecto reiciendis? Iure minus quo vero sit laboriosam eius accusantium, natus mollitia. Sunt laboriosam, culpa natus quaerat ipsum enim aliquid aperiam inventore blanditiis iste nostrum quibusdam.</h1>
+  </>
   );
 }
 export default App;

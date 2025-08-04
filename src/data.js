@@ -6,17 +6,17 @@ const Image = {
 
 export default Image;
 
-import Tools1 from "/assets/tools/vscode.png";
-import Tools2 from "/assets/tools/reactjs.png";
-import Tools3 from "/assets/tools/nextjs.png";
-import Tools4 from "/assets/tools/tailwind.png";
-import Tools5 from "/assets/tools/bootstrap.png";
-import Tools6 from "/assets/tools/js.png";
-import Tools7 from "/assets/tools/nodejs.png";
-import Tools8 from "/assets/tools/github.png";
-import Tools9 from "/assets/tools/ai.png";
-import Tools10 from "/assets/tools/canva.png";
-import Tools11 from "/assets/tools/figma.png";
+import Tools1 from "/public/assets/tools/vscode.png";
+import Tools2 from "/public/assets/tools/reactjs.png";
+import Tools3 from "/public/assets/tools/nextjs.png";
+import Tools4 from "/public/assets/tools/tailwind.png";
+import Tools5 from "/public/assets/tools/bootstrap.png";
+import Tools6 from "/public/assets/tools/js.png";
+import Tools7 from "/public/assets/tools/nodejs.png";
+import Tools8 from "/public/assets/tools/github.png";
+import Tools9 from "/public/assets/tools/ai.png";
+import Tools10 from "/public/assets/tools/canva.png";
+import Tools11 from "/public/assets/tools/figma.png";
 
 export const listTools = [
   {

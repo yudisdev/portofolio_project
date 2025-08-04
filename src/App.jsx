@@ -19,6 +19,30 @@ function App () {
       </div>
       <img src="./assets/hero-img.webp" alt="" className="w-[500px] md:ml-auto" />
     </div>
+
+    {/* {about} */}
+    <div className="about mt-32 py-10">
+      <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg">
+      <img src="./assets/hero-img.webp" alt="image" className="w-12 rounded-md mb-10 sm:hidden" />
+        <p className="text-base/loose mb-10">I'm a budding front-end developer who enjoys exploring modern web technologies. I'm currently focushed on learning React and Tailwind CSS, while building real-world project to hone my skills.</p>
+        <div className="flex  items-center justify-between">
+          <img src="./assets/hero-img.webp" alt="" className="rounded-md w-12 sm:block hidden" />
+          <div className="flex items-center gap-6">
+            <div>
+              <h1 className="text-4xl mb-1">45 <span className="text-violet-500">+</span></h1>
+              <p>Project complate</p>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h1 className="text-4xl mb-1">4 <span className="text-violet-500">+</span></h1>
+              <p>Years of experience</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    {/* {about} */}
     </>
   )
 }

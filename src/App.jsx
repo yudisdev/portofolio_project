@@ -134,23 +134,22 @@ function App() {
       <div className="contact mt-32 p-10">
         <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
         <p className="text-base/loose text-center mb-10 opacity-50">Let's connect</p> 
-        <form action="">
-          <div>
-            <div>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="insert name" required />
+        <form action="" className="bg-zinc-800 p-10 w-fit mx-auto rounded-lg" autoComplete="off">
+          <div className="flex flex-col gap-6">
+            <div className="flex flex-col gap-2">
+              <label className="font-semibold">Name</label>
+              <input type="text" name="name" placeholder="Enter your name..." className="border border-zinc-500 p-2 rounded-md" required />
             </div>
-            <div>
-              <label>Email</label>
-              <input type="text" name="name" placeholder="insert name" required />
+            <div className="flex flex-col gap-2">
+              <label className="font-semibold">Email</label>
+              <input type="email" name="email" placeholder="Enter your email..." className="border border-zinc-500 p-2 rounded-md" required />
             </div>
-            <div>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="insert name" required />
+            <div className="flex flex-col gap-2">
+              <label htmlFor="message" className="font-semibold">Message</label>
+              <textarea name="message" id="message" cols={45} rows={7} placeholder="Enter your message..." className="border border-zinc-500 p-2 rounded-md" required></textarea>
             </div>
-            <div>
-              <label>Name</label>
-              <input type="text" name="name" placeholder="insert name" required />
+            <div className="text-center">
+              <button type="Sumbit" className="bg-violet-700 p-3 rounded-lg w-full cursor-pointer border border-zinc-600 hover:bg-violet-600">Send message</button>
             </div>
           </div>
         </form>

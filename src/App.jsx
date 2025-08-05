@@ -134,7 +134,7 @@ function App() {
       <div className="contact mt-32 p-10">
         <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
         <p className="text-base/loose text-center mb-10 opacity-50">Let's connect</p> 
-        <form action="" className="bg-zinc-800 p-10 w-fit mx-auto rounded-lg" autoComplete="off">
+        <form action="https://formsubmit.co/yudistirahady77@gmail.com" method="POST" className="bg-zinc-800 p-10 w-fit mx-auto rounded-lg" autoComplete="off">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Name</label>

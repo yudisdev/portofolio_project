@@ -129,6 +129,33 @@ function App() {
         </div>
       </div>
       {/* Project */}
+
+      {/* contact */}
+      <div className="contact mt-32 p-10">
+        <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
+        <p className="text-base/loose text-center mb-10 opacity-50">Let's connect</p> 
+        <form action="">
+          <div>
+            <div>
+              <label>Name</label>
+              <input type="text" name="name" placeholder="insert name" required />
+            </div>
+            <div>
+              <label>Email</label>
+              <input type="text" name="name" placeholder="insert name" required />
+            </div>
+            <div>
+              <label>Name</label>
+              <input type="text" name="name" placeholder="insert name" required />
+            </div>
+            <div>
+              <label>Name</label>
+              <input type="text" name="name" placeholder="insert name" required />
+            </div>
+          </div>
+        </form>
+      </div>
+      {/* contact */}
     </>
   );
 }

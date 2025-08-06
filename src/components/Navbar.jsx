@@ -31,22 +31,22 @@ export const Navbar = () => {
         }`}
       >
         <li>
-          <a className="sm:text-lg text-base font-medium" href="#">
+          <a className="sm:text-lg text-base font-medium" href="#home">
             Home
           </a>
         </li>
         <li>
-          <a className="sm:text-lg text-base font-meidum" href="#">
+          <a className="sm:text-lg text-base font-meidum" href="#about">
             About
           </a>
         </li>
         <li>
-          <a className="sm:text-lg text-base font-medium" href="#">
+          <a className="sm:text-lg text-base font-medium" href="#project">
             Project
           </a>
         </li>
         <li>
-          <a className="sm:text-lg text-base font-medium" href="#">Contact</a>
+          <a className="sm:text-lg text-base font-medium" href="#contact">Contact</a>
         </li>
       </ul>
     </div>

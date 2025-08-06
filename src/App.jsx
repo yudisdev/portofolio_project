@@ -28,7 +28,7 @@ function App() {
               Download CV <i className="ri-download-line ri-lg"></i>
             </a>
             <a
-              href="#"
+              href="#project"
               className="bg-zinc-700 p-4 rounded-2xl hover:bg-zinc-600"
             >
               View Project <i className="ri-arrow-down-line ri-lg"></i>
@@ -43,8 +43,8 @@ function App() {
       </div>
 
       {/* {about} */}
-      <div className="about mt-32 py-10">
-        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000">
+      <div className="about mt-32 py-10" id="about">
+        <div className="xl:w-2/3 lg:w-3/4 w-full mx-auto p-7 bg-zinc-800 rounded-lg" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
           <img
             src="./assets/Yudis.jpg"
             alt="image"
@@ -81,13 +81,13 @@ function App() {
         </div>
 
         <div className="tools mt-32">
-          <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000">Tools used</h1>
-          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+          <h1 className="text-4xl/snug font-bold mb-4" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Tools used</h1>
+          <p className="xl:w-2/5 lg:w-2/4 md:w-2/3 sm:w-3/4 w-full text-base/loose opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
             The following tools are the ones i often use to create websites.
           </p>
           <div className="tools-box mt-14 grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
             {listTools.map((tools) => (
-              <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tools.id} data-aos="fade-up" data-aos-duration="1000" data-aos-delay={tools.dad}>
+              <div className="flex items-center gap-2 p-3 border border-zinc-600 rounded-md hover:bg-zinc-800 group" key={tools.id} data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay={tools.dad}>
                 <img
                   src={tools.gambar}
                   alt="toolsimage"
@@ -105,12 +105,12 @@ function App() {
       {/* {about} */}
 
       {/* Project */}
-      <div className="Project mt-32 py-10">
-        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000">Project</h1>
-        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">The following is a project that i have created</p>
+      <div className="Project mt-32 py-10" id="project">
+        <h1 className="text-center text-4xl font-bold mb-2" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">Project</h1>
+        <p className="text-base/loose text-center opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">The following is a project that i have created</p>
         <div className="project-box mt-14 grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
             {listProyek.map((proyek) => (
-              <div key={proyek.id} className="p-4 bg-zinc-800">
+              <div key={proyek.id} className="p-4 bg-zinc-800" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">
                <img src={proyek.gambar} alt="Project image" loading="lazy" />
                <div>
                 <h1 className="text-2xl font-bold my-4">{proyek.nama}</h1>
@@ -131,10 +131,10 @@ function App() {
       {/* Project */}
 
       {/* contact */}
-      <div className="contact mt-32 sm:p-10 p-0">
-        <h1 className="text-4xl mb-2 font-bold text-center">Contact</h1>
-        <p className="text-base/loose text-center mb-10 opacity-50">Let's connect</p> 
-        <form action="https://formsubmit.co/yudistirahady77@gmail.com" method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-lg" autoComplete="off">
+      <div className="contact mt-32 sm:p-10 p-0" id="contact">
+        <h1 className="text-4xl mb-2 font-bold text-center" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Contact</h1>
+        <p className="text-base/loose text-center mb-10 opacity-50" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-aos-once="true">Let's connect</p> 
+        <form action="https://formsubmit.co/yudistirahady77@gmail.com" method="POST" className="bg-zinc-800 p-10 sm:w-fit w-full mx-auto rounded-lg" autoComplete="off" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
           <div className="flex flex-col gap-6">
             <div className="flex flex-col gap-2">
               <label className="font-semibold">Name</label>

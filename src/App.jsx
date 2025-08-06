@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <div className="hero grid items-center pt-10 xl:gap-0 gap-6 md:grid-cols-2 grid-cols-1 ">
-        <div>
+        <div className="animate__animated animate__fadeInUp animate__delay-3s"> 
           <div className="flex items-center gap-3 mb-6 bg-zinc-800 w-fit p-4 rounded-2xl">
             <img src="./assets/Yudis.jpg" alt="" className="w-10 rounded-md" loading="lazy" />
             <q>beutiful code comes from consistent result.😁</q>
@@ -38,7 +38,7 @@ function App() {
         <img
           src="./assets/Yudis.jpg"
           alt=""
-          className="w-[500px] md:ml-auto rounded-lg" loading="lazy"
+          className="w-[500px] md:ml-auto rounded-lg animate__animated animate__fadeInUp animate__delay-4s" loading="lazy"
         />
       </div>
 
